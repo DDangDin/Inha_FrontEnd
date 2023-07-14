@@ -1,0 +1,289 @@
+//Earth.module.scss
+
+.earth {
+    position: relative;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding-top:10px;
+    padding-left:10px;
+  }
+  
+.awaytext {
+    width: 73px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #777777;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.sangmyung{
+    width: 162px;
+    height: 18px;
+    position: absolute;
+    top: 55px;
+    left: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #777777;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.navigation{
+    display:flex;
+    flex-wrap:nowrap;
+    color: #777777;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    overflow-x:auto;
+}
+
+.navigation li {
+    margin-top:10px;
+    margin-right: 15px;
+    margin-left: 250px;
+    white-space: nowrap;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px; 
+}
+
+.Mypage{
+    position: absolute;
+    width: 162px;
+    height: 53px;
+    left: 2000px;
+    top: 16px;
+
+    //background: #FFFFFF;
+    box-shadow: inset 2px 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 45.5px;
+}
+
+.Mypage2{
+    /* My page */
+
+    position: absolute;
+    width: 77px;
+    height: 23px;
+    left: 2050px;
+    top: 32px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #A7A7A7;
+
+
+
+}
+
+@media (max-width: 767px) {
+    .navigation li {
+        margin-left: 250px;
+        margin-right: 15px;
+    }
+
+}
+
+.horizon{
+    margin-left: -100px;
+    margin-top:39px;
+    width:105.4%;
+    z-index:10;
+}
+
+.rectangle{
+    position: absolute;
+    width: 586px;
+    height: 1100px;
+    left: 0px;
+    top: 100px;
+
+    background: #F0F5F9;
+}
+
+.rectangle2{
+    position: absolute;
+    width: 464px;
+    height: 801px;
+    left: 59px;
+    top: 290px;
+
+    background: #FFFFFF;
+    /* 버튼 */
+    box-shadow: inset -4px -4px 10px rgba(255, 255, 255, 0.5), inset 4px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+.rectangle3{
+    position: absolute;
+    width: 1334px;
+    height: 1100px;
+    left: 586px;
+    top: 100px;
+
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 30px rgba(0, 0, 0, 0.25);
+}
+
+.Vector {
+    position: absolute;
+    width: 623px;
+    height: 690px;
+    left: 1000.61px;
+    top: 224px;
+    //background: rgba(0, 36, 106, 0.3);
+    transform: rotate(10.55deg);
+}
+
+.Vector2{
+    position: absolute;
+    width: 292px;
+    height: 259px;
+    left: 886px;
+    top: 327px;
+}
+
+.di{
+    color:#2883D2;/* 디탄제 */
+}
+
+.diamond{
+    /* Group 62 */
+
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    left: 1100px;
+    top: 370px;
+
+
+}
+
+.trans1{
+    /* 이동수단1 */
+
+    position: absolute;
+    width: 230px;
+    height: 18px;
+    left: 1150px;
+    top: 200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+
+    color: #A7A7A7;
+
+}
+
+.Frame{
+    position: absolute;
+    width: 226px;
+    height: 42px;
+    left: 1150px;
+    top: 230px;
+
+}
+
+.Frameg{
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    left: 1132px;
+    top: 270px;
+}
+
+
+.Frame56{
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    width: 231px;
+    height: 56px;
+    left: 176px;
+    top: 380px;
+} 
+.Group82{
+    /* Group 84 */
+
+    position: absolute;
+    width: 125px;
+    height: 89px;
+    left: 230px;
+    top: 500px;
+}
+.Group83{
+    /* Group 83 */
+
+    position: absolute;
+    width: 125px;
+    height: 89px;
+    left: 230px;
+    top: 649px;
+} 
+.Group84{
+    /* Group 82 */
+
+    position: absolute;
+    width: 125px;
+    height: 89px;
+    left: 230px;
+    top: 798px;
+
+} 
+.trans{
+    /* 를 이동할 수 있는 배출량 */
+
+    position: absolute;
+    width: 340px;
+    height: 28px;
+    left: 132px;
+    top: 928px;
+
+} 
+.carbon{
+    /* 내 메일의 탄소 배출량은? */
+    position: absolute;
+    width: 290px;
+    height: 27px;
+    left: 100px;
+    top: 160px;
+
+} 
