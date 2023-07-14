@@ -1,0 +1,86 @@
+.MainComponent1_Container {
+    width : 100%;
+    height: 1080px;
+    color: #686868;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: normal;
+}
+
+.Cloud {
+    position: absolute;
+    width: 216px;
+    height: 130.272px;
+    top : 176px;
+    margin-left : 406px;
+    margin-right : auto;
+    fill-opacity: 0;
+}
+
+.MainContent_Wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top : 116px;
+}
+
+.Text_Wrapper2 {
+    margin-left : auto;
+    margin-right : auto;
+    .TW2_item1 {
+        font-size : 128px;
+        font-weight: 700;
+    }
+    .TW2_item2 {
+        font-size : 32px;
+        font-weight: 700;
+    }
+}
+
+.Icon1 {
+    margin-right : 158px;
+    margin-left : auto;
+}
+
+.Box1 {
+    display: flex;
+    flex-direction: row;
+    
+    width: 540px;
+    height: 88px;
+
+    border-radius: 44px;
+    background: #FFF;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) inset, -4px -4px 10px 0px rgba(255, 255, 255, 0.50) inset;
+
+    .Box1_items1 {
+        color: #686868;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 32px;
+        margin : auto;
+    }
+
+    .Box1_items2 {
+        color: #2883D2;
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin : auto;
+    }
+
+    .Box1_items3 {
+        color: #686868;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        font-size: 32px;
+        margin : auto;
+    }
+    margin-top : 115px;
+}

@@ -1,0 +1,24 @@
+.Footter_Container {
+    display: flex;
+
+    width: 100%;
+    height : 192px;
+    background: #F2F2F2;
+
+    color: #686868;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Footter_Wrapper {
+    display: flex;
+    flex-direction: row;
+    margin : 36px auto 0 auto;
+
+}
+.Footter_items {
+    margin : 0 35px 0 35px;
+}
