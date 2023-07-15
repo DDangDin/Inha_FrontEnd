@@ -36,17 +36,24 @@
 }
 
 .Main3_Content_Wrapper{
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap : wrap;
     margin : 134px auto 0 auto;
+    .AirPlane{
+    position: absolute;
+    z-index: 1;
+    right: 70px;
+    }
 
 }
+
 
 .Content_Division{
     display: flex;
     flex-direction: column;
-
+    z-index: 2;
     margin : 0 auto 0 auto;
 
 }

@@ -4,6 +4,7 @@ import item1 from '../assets/item1.svg';
 import item2 from '../assets/item2.svg';
 import item3 from '../assets/item3.png';
 import item4 from '../assets/item4.svg';
+import AirPlane from  '../assets/AirPlane.png';
 
 const Main3 = () => {
     return (
@@ -13,6 +14,7 @@ const Main3 = () => {
                 <div className='item2'>디지털 탄소 포인트제란?</div>
             </div>
             <div className='Main3_Content_Wrapper'>
+                <img src = {AirPlane} alt='Airplane' className='AirPlane'/>
                 <div className='Content_Division'>
                     <div className='Content_item'>
                         <div className='box1'>
