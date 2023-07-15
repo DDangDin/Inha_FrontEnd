@@ -8,14 +8,15 @@ import axios  from 'axios';
 const Main1 = () => {
 
     const [data, setData] = useState(null);
+    const BASE_URL = "https://751b2f76-8430-4656-9de0-82901640998f.mock.pstmn.io"
     useEffect(() => {
 		//async를 사용하는 함수 따로 선언
 		const fetchData = async () => {
 			try {
 				const response = await axios.get(
-					'https://751b2f76-8430-4656-9de0-82901640998f.mock.pstmn.io/totalparcount',
+					BASE_URL + '/total-participants-count',
 				);
-				setData(response.data.count);
+				setData(response.data.data);
 			} catch (e) {
 				console.log(e);
             }

@@ -21,7 +21,7 @@ const menus = [
     {
         id : 4,
         text : '기능',
-        url : '/ablility/:username'
+        url : '/ability/:username'
     }
 ]
 const Header = () => {

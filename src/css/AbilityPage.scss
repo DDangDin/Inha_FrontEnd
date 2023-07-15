@@ -1,1 +1,147 @@
+.AbilityPage_Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 
+    .AbilityPage_Box1 {
+        display: flex;
+        flex-direction: column;
+        width: 586px;
+        height: 880px;
+        background: #F0F5F9;
+        .Box1_Wrapper {
+            margin-top : 74px;
+            margin-left : 56px;
+            .Box1_text1 {
+                color: #A7A7A7;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .Box1_text2 {
+                margin-top : 10px;
+                color: #686868;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .Box1_text3 {
+                margin-top : 10px;
+                color: #A7A7A7;
+                font-family: Roboto;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+        .ExtraInf_Wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin : 0 auto;
+            width: 464px;
+            height: 696px;
+            margin-left : 56px;
+            margin-top : 65px;
+            border-radius: 50px;
+            background: #FFF;
+            /* 버튼 */
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) inset, -4px -4px 10px 0px rgba(255, 255, 255, 0.50) inset;
+        
+            .ExtraInf_Text1 {
+                color: #2883D2;
+                font-family: Roboto;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin : 58px 0 0 0;
+            }
+            .ExtraInf_Text2 {
+                color: #A7A7A7;
+                font-family: Roboto;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin : 20px 0 0 0;
+            }
+            .ExtraInf_Text3 {
+                color: #686868;
+                font-family: Roboto;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                margin : 0 0 30px 0;
+            }
+
+        }
+    }
+    
+    .AbilityPage_Box2 {
+        display: flex;
+        flex-direction: column;
+        width: 1334px;
+        height: 880px;
+        
+        align-items: center;
+        text-align: center;
+        .Box2_Wrapper{
+            .ExtraInf_Text4 {
+                margin-top : 86px;
+                color: #A7A7A7;
+                font-family: Roboto;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .ExtraInf_Text5 {
+                margin-top : 12px;
+                color: #686868;
+                font-family: Roboto;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+            .ExtraInf_Text6 {
+                margin-top : 12px;
+                color: #2883D2;
+                font-family: Roboto;
+                font-size: 64px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+        .img_bg{
+            position: fixed;
+            top : 200px;
+            width : 758px;
+            height : 717px;
+        }
+        .Box2_Btn{
+            color: #2883D2;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            width: 379px;
+            height: 85px;
+            border: none;
+            border-radius: 185px;
+            background: #FFF;
+            margin-top : 511px;
+            box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25) inset, -4px -4px 10px 0px rgba(255, 255, 255, 0.50) inset;
+        }
+    }
+}
